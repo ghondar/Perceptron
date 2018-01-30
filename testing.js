@@ -5,6 +5,14 @@ function range(value) {
   return [ ...Array(value).keys() ]
 }
 
+/*
+  {
+    umbral,
+    weight,
+    output
+  }
+*/
+
 class Perceptron {
   constructor() {
     this.alpha = 0.1 // factor de aprendizaje. Cuanto mayo es, antes aprende pero tiene menor precision

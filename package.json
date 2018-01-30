@@ -4,6 +4,7 @@
   "description": "",
   "main": "perceptron.js",
   "scripts": {
+    "start": "node perceptron.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "abgv9221@gmail.com",
